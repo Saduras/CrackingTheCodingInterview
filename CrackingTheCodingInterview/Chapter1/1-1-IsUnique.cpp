@@ -4,7 +4,7 @@
 
 #include <chrono>
 
-bool IsUnique(std::string &str)
+bool IsUnique(const std::string& str)
 {
 	int length = str.length();
 	for (int i = 0; i < length; i++) {
@@ -17,7 +17,7 @@ bool IsUnique(std::string &str)
 	return true;
 }
 
-bool IsUniqueSet(std::string &str)
+bool IsUniqueSet(const std::string& str)
 {
 	// possible improvement: use bitset with one bit per char to reduce memory size
 	std::set<char> found;
