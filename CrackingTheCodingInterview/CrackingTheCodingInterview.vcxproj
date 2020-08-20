@@ -147,7 +147,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Chapter1\1-6-StringCompression.cpp" />
+    <ClCompile Include="Chapter2\2-1-RemoveDups.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chapter2\SinglyLinkedList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
